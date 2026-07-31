@@ -289,6 +289,9 @@ h1{
     background-size: cover;
     background-position: center;
     opacity: 0.8;
+    display:flex;
+    align-items:center;
+    justify-content- space-between;
 }
 .hero-1 {
     position: relative;
