@@ -380,6 +380,8 @@ img[alt="icon2"]{
 // Fix for mobile layout of website so anything larger than 550px doesn't get effected. 
 
 @media (max-width: 550px){
+    flex-direction: column;
+    align-items:center;
     nav {flex-wrap: wrap;}
     nav a {flex:1 1 33%; font-size: 15px; padding: 10px 4px;}
 
